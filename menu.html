@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <!-- <link rel="stylesheet" href="menu2.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="./src/logo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img class="nav-img" src="img\2.png" />
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutreso.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="img.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- dark -->
+            <div class="container">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="sliderr round"></span>
+                </label>
+            </div>
+        </ul>
+        <button class="btn">Book a table</button>
+        <img src="img\menu.png" alt="" class="menu-btn" />
+        </div>
+    </nav>
+
+
+    <div class="menu">
+        <h1>2-Min Wala Suroor</h1>
+        <div class="menu-items one">
+            <div class="menu-item">
+                <span class="item-name">PLAIN MAGGI</span><br>
+                <input type="number" class="quantity" id="plain-quantity" placeholder="Quantity"><br>
+                <p class="price">59/-</p>
+                <button class="add-to-cart" data-price="59" data-item="plain">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">BUTTER MAGGI</span><br>
+                <input type="number" class="quantity" id="butter-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">69/-</p>
+                <button class="add-to-cart" data-price="69" data-item="butter-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">MASALA MAGGI</span><br>
+                <input type="number" class="quantity" id="masala-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">59/-</p>
+                <button class="add-to-cart" data-price="59" data-item="masala-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">VEGETABLE MAGGI</span><br>
+                <input type="number" class="quantity" id="vegitable-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">59/-</p>
+                <button class="add-to-cart" data-price="59" data-item="vegitable-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PANEER MAGGI</span><br>
+                <input type="number" class="quantity" id="paneer-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">69/-</p>
+                <button class="add-to-cart" data-price="69" data-item="paneer-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">EGG MAGGI</span><br>
+                <input type="number" class="quantity" id="egg-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">69/-</p>
+                <button class="add-to-cart" data-price="69" data-item="egg-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHEESE MAGGI</span><br>
+                <input type="number" class="quantity" id="cheese-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">89/-</p>
+                <button class="add-to-cart" data-price="69" data-item="cheese-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHEESE CORN MAGGI</span><br>
+                <input type="number" class="quantity" id="cheese-corn-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">89/-</p>
+                <button class="add-to-cart" data-price="69" data-item="cheese-corn-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN MAGGI</span><br>
+                <input type="number" class="quantity" id="chicken-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">89/-</p>
+                <button class="add-to-cart" data-price="69" data-item="chicken-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">KULHAD MAGGI</span><br>
+                <input type="number" class="quantity" id="kulhad-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="kulhad-maggi">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">KULHAD MAGGI NON VEG</span><br>
+                <input type="number" class="quantity" id="kulhad-maggi-nonveg-quantity" placeholder="Quantity"><br>
+                <p class="price">109/-</p>
+                <button class="add-to-cart" data-price="109" data-item="kulhad-maggi-nonveg">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PERI-PERI MAGGI VEG</span><br>
+                <input type="number" class="quantity" id="peri-peri-maggi-veg-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="peri-peri-maggi-veg">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PERI-PERI MAGGI NON VEG</span><br>
+                <input type="number" class="quantity" id="peri-peri-maggi-non-veg-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="peri-peri-maggi-non-veg">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">OATS MAGGI</span><br>
+                <input type="number" class="quantity" id="oats-maggi-quantity" placeholder="Quantity"><br>
+                <p class="price">129/-</p>
+                <button class="add-to-cart" data-price="129" data-item="oats-maggi">Add to Cart</button>
+            </div>
+        </div>
+
+        <h1>Garma Garam</h1>
+        <div class="menu-items two">
+
+            <div class="menu-item">
+                <span class="item-name">BREAK UP CHAI</span><br>
+                <input type="number" class="quantity" id="brakeup-chai-quantity" placeholder="Quantity"><br>
+                <p>(Masala Chai)</p>
+                <p class="price">30/-</p>
+                <button class="add-to-cart" data-price="30" data-item="brakeup-chai">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">NAUGHTY CHAI</span><br>
+                <input type="number" class="quantity" id="naughty-chai-quantity" placeholder="Quantity"><br>
+                <p>(Lemon Chai)</p>
+                <p class="price">30/-</p>
+                <button class="add-to-cart" data-price="30" data-item="naughty-chai">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">NIGHTOUT CHAI</span><br>
+                <input type="number" class="quantity" id="nightout-chai-quantity" placeholder="Quantity"><br>
+                <p>(Adrak Chai)</p>
+                <p class="price">20/-</p>
+                <button class="add-to-cart" data-price="20" data-item="nightout-chai">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">FRIEND ZONE CHAI</span><br>
+                <input type="number" class="quantity" id="friend-zone-chai-quantity" placeholder="Quantity"><br>
+                <p>(Elaichi chai)</p>
+                <p class="price">40/-</p>
+                <button class="add-to-cart" data-price="40" data-item="friend-zone-chai">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">KULHAD CHAI</span><br>
+                <input type="number" class="quantity" id="kulhad-chai-quantity" placeholder="Quantity"><br>
+
+                <p class="price">35/-</p>
+                <button class="add-to-cart" data-price="35" data-item="kulhad-chai">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">GREEN TEA</span><br>
+                <input type="number" class="quantity" id="green-tea-quantity" placeholder="Quantity"><br>
+                <p>Tulsi Honey Lemon,<br>Tulsi Ashwagandha,<br>Tulsi Sweet Rose</p>
+                <p class="price">50/-</p>
+                <button class="add-to-cart" data-price="50" data-item="green-tea">Add to Cart</button>
+            </div>
+        </div>
+
+        <h1>Desi Paratha</h1>
+        <div class="menu-items three">
+
+            <div class="menu-item">
+                <span class="item-name">ALOO PARATHA</span><br>
+                <input type="number" class="quantity" id="aloo-paratha-quantity" placeholder="Quantity"><br>
+
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="aloo-paratha">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PANEER PARATHA</span><br>
+                <input type="number" class="quantity" id="paneer-paratha-quantity" placeholder="Quantity"><br>
+
+                <p class="price">129/-</p>
+                <button class="add-to-cart" data-price="129" data-item="paneer-paratha">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PYAAZ PARATHA</span><br>
+                <input type="number" class="quantity" id="pyaaz-paratha-quantity" placeholder="Quantity"><br>
+
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="pyaaz-paratha">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">MIX PARATHA</span><br>
+                <input type="number" class="quantity" id="mix-paratha-quantity" placeholder="Quantity"><br>
+
+                <p class="price">129/-</p>
+                <button class="add-to-cart" data-price="129" data-item="mix-paratha">Add to Cart</button>
+            </div>
+
+
+
+
+
+
+
+            <!-- Add more menu items here -->
+        </div>
+        <h1>Bun/Sandwich</h1>
+        <div class="menu-items four">
+            <div class="menu-item">
+                <span class="item-name">BUN MAKKHAN</span><br>
+                <input type="number" class="quantity" id="bun-makkhan-quantity" placeholder="Quantity"><br>
+                <p class="price">49/-</p>
+                <button class="add-to-cart" data-price="49" data-item="bun-makkhan">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">GARLIC BUN/FRY GARLIC BUN</span><br>
+                <input type="number" class="quantity" id="garlic-bun-makkhan-quantity" placeholder="Quantity"><br>
+                <p class="price">50/-</p>
+                <button class="add-to-cart" data-price="50" data-item="garlic-bun-makkhan">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">MASALA FRY BUN</span><br>
+                <input type="number" class="quantity" id="masala-fry-bun-quantity" placeholder="Quantity"><br>
+                <p class="price">49/-</p>
+                <button class="add-to-cart" data-price="49" data-item="masala-fry-bun">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">VEG GRILLED SANDWICH</span><br>
+                <input type="number" class="quantity" id="veg-grilled-sandwich-quantity" placeholder="Quantity"><br>
+                <p class="price">149/-</p>
+                <button class="add-to-cart" data-price="149" data-item="veg-grilled-sandwich">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PANEER GRILLED SANDWICH</span><br>
+                <input type="number" class="quantity" id="paneer-grilled-sandwich-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="paneer-grilled-sandwich">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHILLY CHEESE TOAST</span><br>
+                <input type="number" class="quantity" id="chilly-cheese-tost-quantity" placeholder="Quantity"><br>
+                <p class="price">149/-</p>
+                <button class="add-to-cart" data-price="149" data-item="chilly-cheese-tost">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHEESE CORN GRILL SANDWICH</span><br>
+                <input type="number" class="quantity" id="cheese-corn-sandwich-quantity" placeholder="Quantity"><br>
+                <p class="price">189/-</p>
+                <button class="add-to-cart" data-price="189" data-item="cheese-corn-sandwich">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN GRILL SANDWICH</span><br>
+                <input type="number" class="quantity" id="chicken grill-sandwich-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="chicken grill-sandwich">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Pet Bhar Le</h1>
+        <div class="menu-items five">
+            <div class="menu-item">
+                <span class="item-name">VEG NOODLES</span><br>
+                <input type="number" class="quantity" id="veg-noodles-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="veg-noodles">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN NOODLES</span><br>
+                <input type="number" class="quantity" id="chicken-noodles-quantity" placeholder="Quantity"><br>
+                <p class="price">189/-</p>
+                <button class="add-to-cart" data-price="189" data-item="chicken-noodles">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">EGG NOODLES</span><br>
+                <input type="number" class="quantity" id="egg-noodles-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="egg-noodles">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">VEG FRIED RICE</span><br>
+                <input type="number" class="quantity" id="veg-fried-rice-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="veg-fried-rice">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">EGG FRIED RICE</span><br>
+                <input type="number" class="quantity" id="egg-fried-rice-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="egg-fried-rice">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN FRIED RICE</span><br>
+                <input type="number" class="quantity" id="chicken-fried-rice-quantity" placeholder="Quantity"><br>
+                <p class="price">189/-</p>
+                <button class="add-to-cart" data-price="189" data-item="chicken-fried-rice">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PANEER DESI STYLE WITH TAWA ROTI</span><br>
+                <input type="number" class="quantity" id="paneer-desi-style-quantity" placeholder="Quantity"><br>
+                <p class="price">289/-</p>
+                <button class="add-to-cart" data-price="289" data-item="paneer-desi-style">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN DESI STYLE WITH TAWA ROTI</span><br>
+                <input type="number" class="quantity" id="chicken-desi-style-quantity" placeholder="Quantity"><br>
+                <p class="price">299/-</p>
+                <button class="add-to-cart" data-price="299" data-item="chicken-desi-style">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Pizza</h1>
+        <div class="menu-items six">
+
+            <div class="menu-item">
+                <span class="item-name">VEG PIZZA</span><br>
+                <input type="number" class="quantity" id="veg-pizza-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="veg-pizza">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHEESE CORN PIZZA</span><br>
+                <input type="number" class="quantity" id="cheese-corn-pizza-quantity" placeholder="Quantity"><br>
+                <p class="price">199/-</p>
+                <button class="add-to-cart" data-price="199" data-item="cheese-corn-pizza">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">TANDOOR PANEER PIZZA</span><br>
+                <input type="number" class="quantity" id="tandoor paneer-pizza-quantity" placeholder="Quantity"><br>
+                <p class="price">199/-</p>
+                <button class="add-to-cart" data-price="199" data-item="tandoor paneer-pizza">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN PIZZA</span><br>
+                <input type="number" class="quantity" id="chicken-pizza-quantity" placeholder="Quantity"><br>
+                <p class="price">219/-</p>
+                <button class="add-to-cart" data-price="219" data-item="chicken-pizza">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">MUSHROOM PIZZA</span><br>
+                <input type="number" class="quantity" id="mushroom-pizza-quantity" placeholder="Quantity"><br>
+                <p class="price">219/-</p>
+                <button class="add-to-cart" data-price="219" data-item="mushroom-pizza">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Pasta</h1>
+        <div class="menu-items seven">
+
+            <div class="menu-item">
+                <span class="item-name">RED SAUCE PASTA</span><br>
+                <input type="number" class="quantity" id="red-sause-pasta-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="red-sause-pasta">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">WHITE SAUCE PASTA</span><br>
+                <input type="number" class="quantity" id="white-sause-pasta-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="white-sause-pasta">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PINK SAUCE PASTA</span><br>
+                <input type="number" class="quantity" id="pink-sause-pasta-quantity" placeholder="Quantity"><br>
+                <p class="price">269/-</p>
+                <button class="add-to-cart" data-price="269" data-item="pink-sause-pasta">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">WHEAT PASTA</span><br>
+                <input type="number" class="quantity" id="wheat-pasta-quantity" placeholder="Quantity"><br>
+                <p class="price">279/-</p>
+                <button class="add-to-cart" data-price="279" data-item="wheat-pasta">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Coffee</h1>
+        <div class="menu-items eight">
+
+            <div class="menu-item">
+                <span class="item-name">CLASSIC</span><br>
+                <input type="number" class="quantity" id="coffee-quantity" placeholder="Quantity"><br>
+                <p class="price">60/-</p>
+                <button class="add-to-cart" data-price="60" data-item="coffee">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">IRISH CREAM</span><br>
+                <input type="number" class="quantity" id="irish-coffee-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="irish-coffee">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">HAZELNUT</span><br>
+                <input type="number" class="quantity" id="hazelnut-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="hazelnut">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">COLD COFFEE</span><br>
+                <input type="number" class="quantity" id="cold-coffee-quantity" placeholder="Quantity"><br>
+                <p class="price">90/-</p>
+                <button class="add-to-cart" data-price="90" data-item="cold-coffee">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">BLACK COFFEE</span><br>
+                <input type="number" class="quantity" id="black-coffee-quantity" placeholder="Quantity"><br>
+                <p class="price">50/-</p>
+                <button class="add-to-cart" data-price="50" data-item="black-coffee">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">COLD COFFEE WITH
+                    ICE-CREAM</span><br>
+                <input type="number" class="quantity" id="cold-coffee with icecream-coffee-quantity"
+                    placeholder="Quantity"><br>
+                <p class="price">150/-</p>
+                <button class="add-to-cart" data-price="150" data-item="cold-coffee with icecream-coffee">Add to
+                    Cart</button>
+            </div>
+        </div>
+        <h1>Egg</h1>
+        <div class="menu-items nine">
+
+            <div class="menu-item">
+                <span class="item-name">OMLETTE</span><br>
+                <input type="number" class="quantity" id="omlette-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="omlette">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">EGG BHURJI</span><br>
+                <input type="number" class="quantity" id="egg-bhujia-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="egg-bhujia">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">HALF FRY</span><br>
+                <input type="number" class="quantity" id="half-fry-quantity" placeholder="Quantity"><br>
+                <p class="price">89/-</p>
+                <button class="add-to-cart" data-price="89" data-item="half-fry">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHEESE OMLETTE</span><br>
+                <input type="number" class="quantity" id="cheese-omlette-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="cheese-omlette">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Beverages</h1>
+        <div class="menu-items ten">
+
+            <div class="menu-item">
+                <span class="item-name">PACKED WATER</span><br>
+                <input type="number" class="quantity" id="packed-water-quantity" placeholder="Quantity"><br>
+                <p class="price">40/-</p>
+                <button class="add-to-cart" data-price="40" data-item="packed-water">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">NARIYAL WATER</span><br>
+                <input type="number" class="quantity" id="narial-water-quantity" placeholder="Quantity"><br>
+                <p class="price">90/-</p>
+                <button class="add-to-cart" data-price="90" data-item="narial-water">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">COLD DRINK CAN</span><br>
+                <input type="number" class="quantity" id="cold-drink-can-quantity" placeholder="Quantity"><br>
+                <p class="price">70/-</p>
+                <button class="add-to-cart" data-price="70" data-item="cold-drink-can">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">TONIC WATER</span><br>
+                <input type="number" class="quantity" id="tonic-water-quantity" placeholder="Quantity"><br>
+                <p class="price">100/-</p>
+                <button class="add-to-cart" data-price="100" data-item="tonic-water">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">RED BULL</span><br>
+                <input type="number" class="quantity" id="tonic-water-quantity" placeholder="Quantity"><br>
+                <p class="price">170/-</p>
+                <button class="add-to-cart" data-price="170" data-item="tonic-water">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">KANCHE WALA BANTA</span><br>
+                <input type="number" class="quantity" id="kanche-wala-banta-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="kanche-wala-banta">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Hum Tum Special</h1>
+        <div class="menu-items eleven">
+
+            <div class="menu-item">
+                <span class="item-name">HONEY CHILLI POTATO</span><br>
+                <input type="number" class="quantity" id="honey-chilli-potato-quantity" placeholder="Quantity"><br>
+                <p class="price">169/-</p>
+                <button class="add-to-cart" data-price="169" data-item="honey-chilli-potato">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">VEG MANCHURIAN</span><br>
+                <input type="number" class="quantity" id="veg-manchurian-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="veg-manchurian">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHILLI PANEER</span><br>
+                <input type="number" class="quantity" id="chilli-paneer-quantity" placeholder="Quantity"><br>
+                <p class="price">229/-</p>
+                <button class="add-to-cart" data-price="229" data-item="chilli-paneer">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHILLI MUSHROOM</span><br>
+                <input type="number" class="quantity" id="chilli-mushroom-quantity" placeholder="Quantity"><br>
+                <p class="price">229/-</p>
+                <button class="add-to-cart" data-price="229" data-item="chilli-mushroom">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">VEG NUGGETS</span><br>
+                <input type="number" class="quantity" id="veg-muggets-quantity" placeholder="Quantity"><br>
+                <p class="price">189/-</p>
+                <button class="add-to-cart" data-price="189" data-item="veg-muggets">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CORN MASALA</span><br>
+                <input type="number" class="quantity" id="corn-masala-quantity" placeholder="Quantity"><br>
+                <p class="price">189/-</p>
+                <button class="add-to-cart" data-price="189" data-item="corn-masala">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">GREEN PEAS MASALA</span><br>
+                <input type="number" class="quantity" id="green-peas-masala-quantity" placeholder="Quantity"><br>
+                <p class="price">179/-</p>
+                <button class="add-to-cart" data-price="179" data-item="green-peas-masala">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">PANEER 65</span><br>
+                <input type="number" class="quantity" id="paneer-65-quantity" placeholder="Quantity"><br>
+                <p class="price">229/-</p>
+                <button class="add-to-cart" data-price="229" data-item="paneer-65">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">SAUTE MUSHROOM</span><br>
+                <input type="number" class="quantity" id="saute-mushroom-quantity" placeholder="Quantity"><br>
+                <p class="price">229/-</p>
+                <button class="add-to-cart" data-price="229" data-item="saute-mushroom">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">SAUTE VEGETABLE</span><br>
+                <input type="number" class="quantity" id="vegetable-mushroom-quantity" placeholder="Quantity"><br>
+                <p class="price">229/-</p>
+                <button class="add-to-cart" data-price="229" data-item="vegetable-mushroom">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHILLI CHICKEN</span><br>
+                <input type="number" class="quantity" id="chilli-chicken-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="chilli-chicken">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">GINGER CHICKEN</span><br>
+                <input type="number" class="quantity" id="ginger-chicken-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="ginger-chicken">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">GARLIC CHICKEN</span><br>
+                <input type="number" class="quantity" id="garlic-chicken-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="garlic-chicken">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN LOLLIPOP</span><br>
+                <input type="number" class="quantity" id="chicken-lolipop-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="chicken-lolipop">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN WINGS</span><br>
+                <input type="number" class="quantity" id="chicken-wings-quantity" placeholder="Quantity"><br>
+                <p class="price">249/-</p>
+                <button class="add-to-cart" data-price="249" data-item="chicken-wings">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN FRY</span><br>
+                <input type="number" class="quantity" id="chicken-fry-quantity" placeholder="Quantity"><br>
+                <p class="price">289/-</p>
+                <button class="add-to-cart" data-price="289" data-item="chicken-fry">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN POPCORN</span><br>
+                <input type="number" class="quantity" id="chicken-popcorn-quantity" placeholder="Quantity"><br>
+                <p class="price">199/-</p>
+                <button class="add-to-cart" data-price="199" data-item="chicken-popcorn">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN NUGGETS</span><br>
+                <input type="number" class="quantity" id="chicken-nuggets-quantity" placeholder="Quantity"><br>
+                <p class="price">199/-</p>
+                <button class="add-to-cart" data-price="199" data-item="chicken-nuggets">Add to Cart</button>
+            </div>
+        </div>
+        <h1>Extras</h1>
+        <div class="menu-items twelve">
+
+            <div class="menu-item">
+                <span class="item-name">ROTI</span><br>
+                <input type="number" class="quantity" id="roti-quantity" placeholder="Quantity"><br>
+                <p class="price">20/-</p>
+                <button class="add-to-cart" data-price="20" data-item="roti">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">RICE</span><br>
+                <input type="number" class="quantity" id="rice-quantity" placeholder="Quantity"><br>
+                <p class="price">99/-</p>
+                <button class="add-to-cart" data-price="99" data-item="rice">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- orders calc -->
+    <div class="cart">
+        <h2>Your orders</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <p>Total: <span id="grand-total">Rs 0.00</span></p>
+        <!-- <button id="clear-cart">Clear Cart</button> -->
+    </div>
+    </div>
+
+
+
+
+
+    <!-- footer -->
+    <div class="end">
+        <h5>
+            © 2023 Restaurant All Rights Reserved. Designed by <b>Web Cross</b>
+        </h5>
+        <h5>Terms of services</h5>
+        <h5>Privacy Policy</h5>
+    </div>
+
+    <!-- logo -->
+    <div id="contact" class="sm">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="dark.js"></script>
+    <script src="menu2.js"></script>
+</body>
+
+</html>

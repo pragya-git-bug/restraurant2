@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,400;0,500;1,300&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* padding: 150px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 150px 20px 20px; */
+  /* margin: 60px 0 200px 0; */
+}
+.container .heading {
+  padding: 150px 0 50px;
+  /* width: 50%; */
+  padding-bottom: 50px;
+}
+.container .heading h3 span {
+  font-family: "Playfair Display", serif;
+  text-shadow: 3px 4px 5px #1d8d95;
+  font-weight: 1;
+}
+
+.container .heading h3 {
+  font-family: "Playfair Display", serif;
+  text-shadow: 3px 4px 5px #1d8d95;
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box .card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.container .box .card .cnt img {
+  width: 100%;
+  border-radius: 10px;
+}
+.container .box .card .cnt {
+  padding-bottom: 20px;
+}
+.container .box .card .cnt h4 {
+  font-size: 1em;
+}
+.container .btn {
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.container .btn a {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container .box {
+    flex-direction: column;
+  }
+  .container .box .card {
+    width: 100%;
+  }
+  .container {
+    padding: 100px 40px 10px;
+  }
+}
+
+@media only screen and (max-width: 643px) {
+  .container .heading {
+    width: 100%;
+  }
+  .container .heading h3 span {
+    font-weight: 100;
+  }
+
+  .container .heading h3 {
+    font-size: 1.2em;
+  }
+}

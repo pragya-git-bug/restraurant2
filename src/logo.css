@@ -1,0 +1,37 @@
+.sm {
+  background-color: #dcdadaa6;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sm a {
+  font-size: 20px;
+  width: 60px;
+  height: 10vh;
+
+  text-align: center;
+  color: rgb(93, 93, 93);
+
+  transition: 0.4s linear;
+  position: relative;
+}
+
+.sm a:hover {
+  font-size: 30px;
+
+  color: #ff5733;
+
+  transition: 0.4s linear;
+}
+
+@media only screen and (max-width: 850px) {
+  .sm a {
+    font-size: 12px;
+    width: 35px;
+  }
+  .sm a:hover {
+    font-size: 20px;
+  }
+
+}

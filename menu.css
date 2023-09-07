@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,400;0,500;1,300&family=Roboto&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f0f0f0; */
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-shadow: 3px 4px 5px #1d8d95;
+}
+p,
+li,
+a h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  padding: 150px 100px;
+  /* background-color: #fff; */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.menu h1 {
+  padding: 30px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 9vmin;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  /* background-color: #fff; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  max-width: 100%;
+}
+
+.item-name {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.menu-item .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1ec404;
+}
+
+.add-to-cart {
+  /* background-color: #146065da; */
+  color: #fff;
+  /* box-shadow: 0 0 20px #05aac7; */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.one button{
+  background-color: #ee437c ;
+  box-shadow: 0 0 20px #9b294f;
+}
+.two button{
+  background-color: #efa53e ;
+  box-shadow: 0 0 20px #926525;
+}
+.three button{
+  background-color: #d0eb66 ;
+  box-shadow: 0 0 20px #667234;
+}
+.four button{
+  background-color: #4eefc4 ;
+  box-shadow: 0 0 20px #357b69;
+}
+.five button{
+  background-color: #68b5f5 ;
+  box-shadow: 0 0 20px #3b6587;
+}
+.six button{
+  background-color: #6d76ea ;
+  box-shadow: 0 0 20px #3e4385;
+}
+.seven button{
+  background-color: #a839f7 ;
+  box-shadow: 0 0 20px #662e8f;
+}
+.eight button{
+  background-color: #f43bd2 ;
+  box-shadow: 0 0 20px #892978;
+}
+.nine button{
+  background-color: #fd4e63 ;
+  box-shadow: 0 0 20px #992b38;
+}
+.ten button{
+  background-color: #bdd632 ;
+  box-shadow: 0 0 20px #78852b;
+}
+.eleven button{
+  background-color: #23b0b8 ;
+  box-shadow: 0 0 20px #238a9c;
+}
+.twelve button{
+  background-color: #f68e49 ;
+  box-shadow: 0 0 20px #9c592d;
+}
+
+.cart {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.cart h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#cart-total {
+  font-weight: bold;
+  color: #007bff;
+}
+
+#clear-cart {
+  background-color: #67dc35;
+  box-shadow: 0 0 20px #46910a;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item-name {
+  font-size: 18px;
+}
+
+.quantity {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+.cart h2 {
+  font-size: 24px;
+}
+
+.cart p {
+  font-size: 18px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-item button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #c82333;
+}
+
+@media only screen and (max-width: 850px) {
+  .menu {
+    padding: 100px 40px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1200px) {
+  .menu .menu-items {
+    display: unset;
+  }
+  .menu .menu-item {
+    margin: 40px;
+  }
+}
