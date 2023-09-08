@@ -662,7 +662,7 @@ a {
 
 @media only screen and (max-width: 850px) {
   .menu-btn {
-    position:fixed;
+   
     display: block;
   }
   .navbar {
@@ -678,7 +678,7 @@ a {
     top: 60px;
     left: -30px;
     width: 150px;
-    position:fixed;
+   
   }
 
   .nav-links {
