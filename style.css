@@ -669,7 +669,7 @@ a {
     background-color: transparent;
     z-index: 1;
     padding: 0 0;
-    position: relative;
+/*     position: relative; */
   }
 
   .nav-img {
@@ -962,7 +962,7 @@ a {
 
   .navbar {
     padding: 0 0;
-    position: relative;
+/*     position: relative; */
     background-color:transparent
   }
 
