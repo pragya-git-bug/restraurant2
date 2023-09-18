@@ -666,7 +666,8 @@ a {
     display: block;
   }
   .navbar {
-    background-color: transparent;
+    height:100px;
+/*     background-color: transparent; */
     z-index: 1;
     padding: 0 0;
 /*     position: relative; */
@@ -695,12 +696,13 @@ a {
   }
   .mobile-menu {
     /* z-index: 1; */
+    height:170vh;
     width: 100%;
     /* padding-left: 0;
     margin-left: 0; */
     margin-top: 0px;
     background-color: #1d8d95;
-    border-bottom-right-radius: 40%;
+    border-bottom-right-radius: 25%;
   }
 
   /* .nav-links a {
